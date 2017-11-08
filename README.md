@@ -1,0 +1,1 @@
+# Arabian Bing Translator
