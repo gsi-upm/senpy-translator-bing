@@ -1,0 +1,20 @@
+---
+name: TranslatorPlugin
+module: translator
+description: Plugin que traduce de cualquier idioma al ingles
+author: "@EduardoVaras"
+version: '0.2'
+url: "https://github.com/gsi-upm/senpy"
+requirements:
+    - nltk
+extra_params:
+  key: 
+    aliases:
+    - key
+  lang:
+    aliases:
+    - language
+    - lang 
+    options: 
+    - ar
+    default: ar
