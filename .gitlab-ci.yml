@@ -1,7 +1,24 @@
+stages:
+  - build
+  - push
+  - dockerhub
+
+build-image:
+  stage: build
+  script:
+    - docker-compose build
+
 push-github:
-  stage: deploy
+  stage: push
   script:
     - make -e push-github
   only:
     - master
     - triggers
+
+push-dockerhub:
+  stage: dockerhub
+  script:
+    - make -e docker-login
+    - docker-compose push
+

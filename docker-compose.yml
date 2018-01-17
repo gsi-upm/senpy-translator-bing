@@ -2,6 +2,7 @@ version: '2'
 services:
   senpy:
     build: .
+    image: gsiupm/senpy-translator-bing
     volumes:
       - .:/senpy-plugins/
     ports:
