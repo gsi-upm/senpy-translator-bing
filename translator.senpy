@@ -7,10 +7,10 @@ version: '0.2'
 url: "https://github.com/gsi-upm/senpy"
 requirements:
     - nltk
+    - mstranslator
 extra_params:
   key: 
-    aliases:
-    - key
+    required: true
   lang:
     aliases:
     - language
