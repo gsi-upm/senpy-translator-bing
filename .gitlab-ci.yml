@@ -1,0 +1,7 @@
+push-github:
+  stage: deploy
+  script:
+    - make -e push-github
+  only:
+    - master
+    - triggers
