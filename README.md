@@ -22,9 +22,10 @@ docker-compose up
 
 ## Programatical access
 
-1. Run the following query, being <ARAB_TEXT_TO_CONVERT> the text you want to translate and <YOUR_MS_TRANSLATOR_PI_KEY> your API ley created from portal.azure.com.
+1. Run the following query, being <ARAB_TEXT_TO_CONVERT> the text you want to translate and <YOUR_MS_TRANSLATOR_PI_KEY> your API key created from portal.azure.com.
 
-```localhost:5000/api?algo=TranslatorPlugin&i=<ARAB_TEXT_TO_CONVERT>&conversion=full&expanded-jsonld=false&informat=text&intype=direct&outformat=json-ld&urischeme=RFC5147String&with_parameters=false&lang=ar&key=<YOUR_MS_TRANSLATOR_API_KEY>
+```
+localhost:5000/api?algo=TranslatorPlugin&i=<ARAB_TEXT_TO_CONVERT>&conversion=full&expanded-jsonld=false&informat=text&intype=direct&outformat=json-ld&urischeme=RFC5147String&with_parameters=false&lang=ar&key=<YOUR_MS_TRANSLATOR_API_KEY>
 ``` 
 
 ## Web interface access
