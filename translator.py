@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 
 class TranslatorPlugin(AnalysisPlugin):
-    '''Plugin que traduce de cualquier idioma al ingles'''
+    '''Plugin for translation.'''
 
     def analyse_entry(self, entry, params):
         txt = entry['nif:isString']
