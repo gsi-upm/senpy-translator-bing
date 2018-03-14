@@ -2,7 +2,7 @@
 
 Plugin for translation using Bing. 
 
-An API key from portal.azure.com is needed to create a token . See Microsoft Translator API Documentation: http://docs.microsofttranslator.com/. 
+An API key from portal.azure.com should be created to use the Bing Service. See Microsoft Translator API Documentation: http://docs.microsofttranslator.com/. 
 
 
 ## Setup
