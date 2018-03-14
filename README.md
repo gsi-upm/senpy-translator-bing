@@ -24,10 +24,10 @@ docker-compose up
 
 Run the following query, being 
 * SOURCE_TEXT the text you want to translate 
-* LANG the target language
+* LANG the target language (e.g. ar for Arabic, en for English, etc.).
 * YOUR_MS_TRANSLATOR_API_KEY your API key created from portal.azure.com.
 
-localhost:5000/api?algo=TranslatorPlugin&i=<SOURCE_TEXT>&conversion=full&expanded-jsonld=false&informat=text&intype=direct&outformat=json-ld&urischeme=RFC5147String&with_parameters=false&lang=ar&key=<YOUR_MS_TRANSLATOR_API_KEY>
+localhost:5000/api?algo=TranslatorPlugin&i=<SOURCE_TEXT>&conversion=full&expanded-jsonld=false&informat=text&intype=direct&outformat=json-ld&urischeme=RFC5147String&with_parameters=false&lang=<LANG>&key=<YOUR_MS_TRANSLATOR_API_KEY>
 ``` 
 ## Web interface access
 
