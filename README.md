@@ -1,4 +1,4 @@
-# Bing Translator
+# Bing Translator Senpy Plugin
 
 Plugin for translation using Bing. 
 
@@ -20,7 +20,7 @@ cd translator-bing/
 docker-compose up 
 ```
 
-## Programatical access
+## Programmatical access
 
 Run the following query, being 
 * SOURCE_TEXT the text you want to translate 
