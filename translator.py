@@ -25,6 +25,6 @@ class TranslatorPlugin(AnalysisPlugin):
         print(params)
         translator = Translator(key)
         txttranslated = translator.translate(txt, lang_from=lang, lang_to='en')
-        entry['output'] = txttranslated
+        entry['output'] = {"nif:isString":txttranslated}
 
         yield entry

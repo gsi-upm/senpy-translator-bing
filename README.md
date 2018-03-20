@@ -1,6 +1,6 @@
 # Arabian Bing Translator
 
-Plugin for arabian to english translation.
+Plugin for arabian to english translation, belonging to the [Senpy](http://senpy.readthedocs.io/en/latest/) plugins catalogue. This plugin along with many others can be used together in order to create additional value via pipelines, being [GSI Crawler](http://gsicrawler.readthedocs.io/en/latest/) an example of how to enrich data through these procedures. 
 
 An API key from portal.azure.com is needed to create a token . See Microsoft Translator API Documentation: http://docs.microsofttranslator.com/. 
 
