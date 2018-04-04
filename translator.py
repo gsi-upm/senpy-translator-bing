@@ -21,10 +21,11 @@ class TranslatorPlugin(AnalysisPlugin):
     def analyse_entry(self, entry, params):
         txt = entry['nif:isString']
         lang = params.get("lang")
+        lang_to = params.get("lang_to")
         key = params.get("key")
         print(params)
         translator = Translator(key)
-        txttranslated = translator.translate(txt, lang_from=lang, lang_to='en')
+        txttranslated = translator.translate(txt, lang_from=lang, lang_to=lang_to)
         entry['output'] = {"nif:isString":txttranslated}
 
         yield entry
