@@ -17,4 +17,17 @@ extra_params:
     - lang 
     options: 
     - ar
+    - en
+    - es
+    - fr
     default: ar
+  lang_to:
+    aliases:
+    - language_to
+    - lang_to
+    options:
+    - en
+    - ar
+    - es
+    - fr
+    default: en
