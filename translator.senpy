@@ -1,5 +1,5 @@
 ---
-name: TranslatorPlugin
+name: BingTranslatorPlugin
 module: translator
 description: Plugin que traduce de cualquier idioma al ingles
 author: "@EduardoVaras"
