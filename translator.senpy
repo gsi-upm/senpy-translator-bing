@@ -1,7 +1,8 @@
 ---
 name: BingTranslatorPlugin
 module: translator
-description: Plugin que traduce de cualquier idioma al ingles
+description: Translator Plugin. For getting a Bing API Key, request an API key at https://www.microsoft.com/en-us/translator/trial.aspx#get-started
+
 author: "@EduardoVaras"
 version: '0.2'
 url: "https://github.com/gsi-upm/senpy"
